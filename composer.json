@@ -1,0 +1,20 @@
+{
+    "name": "aivanouski/grbj-archive-scraper",
+    "description": "GRBJ Archive Scraper",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Andrei Ivanouski",
+            "email": "aivanouski@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.9",
+        "guzzlehttp/guzzle": "~6.0",
+        "symfony/dom-crawler": "^3.2",
+        "symfony/css-selector": "^3.2"
+    },
+    "autoload": {
+        "psr-4": { "aivanouski\\": "src/" }
+    }
+}
